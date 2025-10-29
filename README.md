@@ -132,9 +132,52 @@ HashiCorp Learn Tutorials
 
 Terraform GitHub Repository
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🌍 Introduction to Terraform using Azure and AWS
+
+This repository provides a beginner-friendly introduction to **Terraform**, focusing on how to use it for automating infrastructure deployment on **Microsoft Azure** and **Amazon Web Services (AWS)**.  
+It covers fundamental Terraform concepts, installation, configuration, and real-world examples for provisioning cloud resources.
+
+---
+
+## 🚀 What is Terraform?
+
+**Terraform** is an open-source **Infrastructure as Code (IaC)** tool developed by **HashiCorp**.  
+It allows developers and DevOps engineers to define, provision, and manage infrastructure using simple, declarative configuration files.
+
+### 🔑 Key Features:
+- **Cloud Agnostic** – Works with Azure, AWS, GCP, and more.
+- **Declarative Syntax** – Define *what* you want, not *how* to build it.
+- **Version Controlled Infrastructure** – Store your infrastructure setup in Git.
+- **Reusable Modules** – Simplify repetitive configurations.
+
+---
+
+## 🧩 Prerequisites
+
+Before getting started, ensure you have:
+- **Terraform** installed ([Download Terraform](https://developer.hashicorp.com/terraform/downloads))
+- **Azure CLI** or **AWS CLI** installed and configured
+- Basic understanding of:
+  - Cloud computing
+  - Command-line interface
+  - YAML / JSON syntax (optional)
+
+---
+
+## ☁️ Terraform with Azure
+
+### Steps:
+1. **Install Terraform**
+   ```bash
+   sudo apt update
+   sudo apt install terraform -y
+
+
 💡 Author
 
 Ayush Pandey
-🌐 Cloud & DevOps Enthusiast | ☁️ AWS | ⚙️ Terraform | 🧩 Automation
+🌐 Cloud & DevOps Enthusiast |☁️ Azure | | ☁️ AWS | ⚙️ Terraform | 🧩 Automation
 
 “Infrastructure as Code turns manual cloud setup into reusable, version-controlled automation.”
