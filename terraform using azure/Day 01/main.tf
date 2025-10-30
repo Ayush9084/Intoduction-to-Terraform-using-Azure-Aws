@@ -18,7 +18,7 @@ provider "azurerm" {
 
 }
 
-*/creating resource group /*
+*/creating resource group */
 
   resource "azurerm_resource_group" "myrg" {
   name     = "myrg"
@@ -48,3 +48,4 @@ resource "azurerm_storage_blob" "blob077" {
   source                 = "source file path"
 
 }
+
