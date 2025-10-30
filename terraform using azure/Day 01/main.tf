@@ -18,6 +18,8 @@ provider "azurerm" {
 
 }
 
+*/creating resource group /*
+
   resource "azurerm_resource_group" "myrg" {
   name     = "myrg"
   location = "East US"
@@ -44,4 +46,5 @@ resource "azurerm_storage_blob" "blob077" {
   storage_container_name = "container077"
   type                   = "Block"
   source                 = "source file path"
+
 }
