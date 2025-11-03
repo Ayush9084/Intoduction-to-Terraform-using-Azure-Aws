@@ -11,10 +11,10 @@ terraform {
 }
 
 provider "azurerm" {
-  subscription_id = "ede7f38c-5cfc-4658-b28b-f048a4f9dad6"
-  client_id       = "be366ca2-4991-4707-8bee-6781296e7cb6"
-  client_secret   = "kwi8Q~BNyn~i76TiSJUpnLL6BN.UJzOqHQex2c8Q"
-  tenant_id       = "26b8e668-1aad-4fd7-bf87-22fe43158224"
+  subscription_id = "**********************************"
+  client_id       = "**********************************"
+  client_secret   = "**********************************"
+  tenant_id       = "**********************************"
   features {
   }
 }
@@ -62,4 +62,5 @@ resource "azurerm_virtual_network" "vnet" {
   }
 
   depends_on = [ azurerm_resource_group.rg ]
+
 }
